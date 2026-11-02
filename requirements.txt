@@ -1,0 +1,13 @@
+pandas==2.2.2
+numpy==1.26.4
+yfinance==0.2.40
+pymysql==1.1.1
+sqlalchemy==2.0.30
+streamlit==1.36.0
+plotly==5.22.0
+scikit-learn==1.5.1
+python-dotenv==1.0.1
+pendulum==3.0.0
+
+# Airflow is installed separately in the WSL venv per README (version-pinned
+# there to avoid conflicts): apache-airflow==3.3.2 apache-airflow-providers-standard apache-airflow-providers-fab apache-airflow-providers-mysql mysqlclient
